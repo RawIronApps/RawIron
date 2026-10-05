@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Raw Mark: riveted plate monogram"><title>Raw Mark: riveted plate monogram</title>
+<defs>
+  <linearGradient id="face" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f4f6f7"/><stop offset=".28" stop-color="#b6bbc0"/>
+    <stop offset=".52" stop-color="#e4e7e9"/><stop offset=".78" stop-color="#8a9095"/>
+    <stop offset="1" stop-color="#c8ccd0"/>
+  </linearGradient>
+  <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fbfcfc"/><stop offset=".45" stop-color="#a3a8ad"/>
+    <stop offset="1" stop-color="#474b50"/>
+  </linearGradient>
+  <linearGradient id="rimInv" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#3b3f44"/><stop offset="1" stop-color="#eceef0"/>
+  </linearGradient>
+  <linearGradient id="gun" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#3c4045"/><stop offset="1" stop-color="#111316"/>
+  </linearGradient>
+  <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ff5b4f"/><stop offset=".45" stop-color="#d8190f"/>
+    <stop offset="1" stop-color="#7d0a06"/>
+  </linearGradient>
+  <radialGradient id="rivet" cx=".35" cy=".3" r=".75">
+    <stop offset="0" stop-color="#ffffff"/><stop offset=".45" stop-color="#aab0b5"/>
+    <stop offset="1" stop-color="#43474c"/>
+  </radialGradient>
+  <filter id="brush" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.004 0.85" numOctaves="2" seed="7" result="n"/>
+    <feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0.55 0 0 0 -0.22" result="w"/>
+    <feComposite in="w" in2="SourceAlpha" operator="in" result="wm"/>
+    <feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="wm"/></feMerge>
+  </filter>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs><rect x="64" y="40" width="384" height="372" rx="30" fill="url(#rim)" filter="url(#brush)" stroke="#3a3e43" stroke-width="3"/><rect x="84" y="60" width="344" height="332" rx="18" fill="url(#face)" filter="url(#brush)"/><rect x="84" y="60" width="344" height="332" rx="18" fill="none" stroke="url(#rimInv)" stroke-width="3"/><path d="M 180 120 L 290 120 Q 342 120 342 176 Q 342 218 308 230 L 348 332 L 294 332 L 258 238 L 230 238 L 230 332 L 180 332 Z M 230 164 L 280 164 Q 292 164 292 179 Q 292 194 280 194 L 230 194 Z" fill="#ffffff" opacity=".6" transform="translate(0 3)" fill-rule="evenodd"/><path d="M 180 120 L 290 120 Q 342 120 342 176 Q 342 218 308 230 L 348 332 L 294 332 L 258 238 L 230 238 L 230 332 L 180 332 Z M 230 164 L 280 164 Q 292 164 292 179 Q 292 194 280 194 L 230 194 Z" fill="url(#gun)" fill-rule="evenodd"/><circle cx="110" cy="86" r="13" fill="url(#rivet)" stroke="#2c2f33" stroke-width="1.2"/><circle cx="110" cy="366" r="13" fill="url(#rivet)" stroke="#2c2f33" stroke-width="1.2"/><circle cx="402" cy="86" r="13" fill="url(#rivet)" stroke="#2c2f33" stroke-width="1.2"/><circle cx="402" cy="366" r="13" fill="url(#rivet)" stroke="#2c2f33" stroke-width="1.2"/>
+<rect x="24" y="440" width="464" height="36" rx="18" fill="url(#red)" stroke="#5a0603" stroke-width="1.5"/>
+<rect x="44" y="445" width="424" height="9" rx="4.5" fill="#fff" opacity=".35"/>
+</svg>
