@@ -51,9 +51,11 @@ a { color: inherit; }
   display: inline-flex; align-items: center; gap: 10px;
 }
 .brand img { width: 36px; height: 36px; }
+/* the app's name (and each nav link) stays on one line; "RawIron Dose" would otherwise wrap on narrow phones */
+.brand-text { white-space: nowrap; }
 .brand-text span { font-weight: 400; font-style: italic; }
 nav { display: flex; gap: 24px; }
-nav a { text-decoration: none; color: var(--muted); font-size: .9rem; }
+nav a { text-decoration: none; color: var(--muted); font-size: .9rem; white-space: nowrap; }
 nav a:hover, nav a.active { color: var(--ink); }
 nav a.nav-home { color: var(--ink); font-weight: 600; padding-right: 24px; border-right: 1px solid var(--line); }
 

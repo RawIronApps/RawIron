@@ -122,7 +122,7 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-
   margin-bottom: 56px;
 }
 .featured img { width: 120px; height: 120px; }
-/* RawIron Log and RawIron Fuel preview their graphite product theme (rawironlog/, rawironfuel/styles.css) on the RawIron home page */
+/* RawIron Log, RawIron Fuel and RawIron Dose preview their graphite product theme (rawironlog/, rawironfuel/, rawirondose/styles.css) on the RawIron home page */
 .featured.graphite {
   padding: 44px; border-radius: 16px;
   background:

@@ -9,7 +9,7 @@ Static support/legal pages for RawIron Log, published as part of the RawIron web
 - `terms.html` — terms of use
 - `support.html` — support/contact page
 - `tips.html` — Tips & Features: what the app can do and where to find it; mirrors the app's Tips & Features page (`Pages/TipsPage.xaml.cs`), so update both together; also in the graphite product theme. Privacy, Terms and Support stay on the RawIron paper theme for long-form reading
-- `styles.css` — shared styling: the RawIron palette plus the graphite product theme and steel phone frames (`.device`)
+- `styles.css` — shared styling: the RawIron palette plus the graphite product theme and steel phone frames (`.device`); the same as `../rawironfuel/styles.css` and `../rawirondose/styles.css`, so keep the three in sync
 - `images/` — logo assets generated from `rawironlog-app-logo.png` (cropped to the artwork, then resized)
   - `logo-72.png` — header mark (shown at 36px, 30px on mobile)
   - `logo-144.png` — featured-app logo on the RawIron home page (shown at 96–120px)
